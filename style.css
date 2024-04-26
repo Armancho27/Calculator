@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+                  margin: 0;
+                  padding: 0;
+                  box-sizing: border-box;
+                  font-weight: bold;
+                  color: white;
+                  font-family: Inter, sans-serif;
+}
+
+body {
+                  height: 100svh;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  background-color: #1A1B28;
+}
+
+section {
+                  width: 360px;
+                  height: 640px;
+                  background-color: #1A1B28;
+                  padding: 22px;
+                  display: flex;
+                  flex-direction: column-reverse;
+}
+
+button {
+                  width: 64px;
+                  height: 64px;
+                  background-color: #148852;
+                  border-radius: 7px;
+                  border: none;
+                  font-size: 32px;
+                  cursor: pointer;
+                  transition: all 0.1s;
+}
+
+button:hover {
+                  background-color: #36b479;
+}
+
+button:active {
+                  transform: scale(0.9);
+}
+
+.op {
+                  background-color: #525252;
+}
+
+.op:hover {
+                  background-color: #838383;
+}
+
+.b-col {
+                  display: flex;
+                  flex-direction: column;
+                  gap: 12px;
+}
+
+.numpad {
+                  display: flex;
+                  justify-content: space-between;
+                  width: 100%;
+}
+
+.plus {
+                  height: 140px;
+}
+
+.vvod {
+                  text-align: end;
+                  font-size: 24px;
+                  margin-bottom: 32px;
+}
+
+.sel {
+                  color: #525252;
+}
+
+.divider {
+                  background-color: #525252;
+                  opacity: 0.2;
+                  width: 100%;
+                  height: 2px;
+                  margin-bottom: 17px;
+}
+
+.res-row {
+                  display: flex;
+                  justify-content: space-between;
+                  font-size: 48px;
+                  margin-bottom: 22px;
+}
+
+.eq {
+                  color: #525252;
+}
+
+.kaka {
+                  display: flex;
+                  justify-content: center;
+                  margin-bottom: 55px;
+                  font-size: 22px;
+
+}
+
+@media (orientation: portrait){
+                  section {
+                                    height: 100%;
+                  }
+}
